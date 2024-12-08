@@ -1,0 +1,8 @@
+.container-fluid{
+    background: pink;
+    height: 500px;
+  }
+  .row{
+    background: aquamarine;
+    height: 100px;
+  }
