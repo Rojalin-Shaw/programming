@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="icon" href="path/to/your/favicon.ico" type="image/x-icon">
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function generatePassword(name, section, regdNo) {
+    if (name.length < 2 || regdNo.length < 2) {
+        return "Invalid input. Name and regdNo must have at least 2 characters.";
+    }
+    
+   
+    const name1 = name.substring(0, 2);
+    
+    const regd1 = regdNo.slice(-2);
+    
+    const password = name1 + regd1;
+    
+    return password;
+}
+
+const name = "Jyui";
+const section = "A";  
+const regdNo = "1436";
+const password = generatePassword(name, section, regdNo);
+console.log("Generated Password:", password);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
