@@ -1,2 +1,2 @@
 # programming
-All the programming language is here which is well to me.
+All the programming language is here which is well known to me.
