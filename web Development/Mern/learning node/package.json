@@ -1,0 +1,28 @@
+{
+  "name": "learning-node",
+  "version": "1.0.0",
+  "description": "learing node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rojalin-Shaw/programming.git"
+  },
+  "keywords": [
+    "node.js",
+    "learner"
+  ],
+  "author": "Rojalin Shaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rojalin-Shaw/programming/issues"
+  },
+  "homepage": "https://github.com/Rojalin-Shaw/programming#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "simple-node-logger": "^21.8.12"
+  }
+}
